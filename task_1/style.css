@@ -1,0 +1,25 @@
+p {
+  color: orange;
+}
+body {
+  background-color: azure;
+  text-align: center;
+}
+h1 {
+  display: flexbox;
+  margin: auto;
+  text-align: center;
+}
+/* CSS FOR GENERAL PARAGRAPH */
+.para_general {
+  color: blueviolet;
+  font-size: 30px;
+  text-align: center;
+  border: 10px;
+  border-width: 10px;
+  border-color: black;
+}
+
+#para_2 {
+  color: black;
+}
