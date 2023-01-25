@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Comic Neue, cursive;
+}
+body {
+  background-color: rgb(100, 100, 100);
+  padding: 8px;
+}
+main {
+  color: white;
+}
+
+.header__div {
+  background-color: antiquewhite;
+  margin-bottom: 30px;
+}
+.main__head {
+  margin-bottom: 20px;
+  font-size: 50px;
+  padding: 50px 0;
+  text-align: center;
+}
+.nav__li {
+  display: inline-block;
+}
+.nav__anchro {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+}
+.article__img {
+  height: 100px;
+  width: 100px;
+  background-color: orangered;
+  float: left;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+.article__text {
+  line-height: 1.75;
+}
+.forms {
+  height: 700px;
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.135);
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+.seperate {
+  height: 10px;
+  background-color: black;
+  margin: 20px 0;
+}

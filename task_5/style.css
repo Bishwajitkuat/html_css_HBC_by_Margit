@@ -1,40 +1,45 @@
 body {
-  background-color: rgba(5, 54, 5, 0.52);
-  text-align: center;
+  background-color: rgb(33, 89, 55);
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  box-sizing: border-box;
 }
 .sign {
-  height: 700px;
-  width: 300px;
-  margin: auto;
+  height: 800px;
+  width: 30%;
   margin-top: 70px;
+  position: absolute;
+  left: 35%;
+  right: 35%;
 }
 .sing__body {
   height: 700px;
-  width: 300px;
+  width: 100%;
   background-color: whitesmoke;
-  padding: 10px;
   border-radius: 2%;
+  text-align: center;
+  padding: 10px;
 }
 .sign__body--instraction {
   margin-bottom: 30px;
 }
-label,
-input,
-button {
+h1 {
+  font-weight: bolder;
+}
+label {
   display: block;
   text-align: left;
-  width: 95%;
-
-  font-family: inherit;
+  /* font-family: inherit; */
+  line-height: 1.7;
 }
 input {
   margin-bottom: 20px;
   border: 1px solid #00000030;
-  border-radius: 6%;
+  border-radius: 5px;
   height: 35px;
+  width: 99%;
 }
 button {
   margin-bottom: 30px;
@@ -45,9 +50,14 @@ button {
   border-radius: 2%;
   margin: 0 auto;
   border: none;
+  color: white;
 }
+
 a {
   font-weight: 400;
   color: #ff4400bb;
   text-decoration: none;
+}
+.sign__body--terms {
+  font-size: small;
 }
