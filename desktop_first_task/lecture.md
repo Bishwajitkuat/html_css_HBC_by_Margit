@@ -17,3 +17,9 @@
 # meta tags always goes to head section
 
 # Responsive webpages : two approaches : destop first approch and mobile first approach
+
+# without viewport responsive does not work neither do media quary
+
+# parent properties : flex-direction, flex-wrap, justify-content, align-items, align-content
+
+# childrem properties: flex, order, align-self

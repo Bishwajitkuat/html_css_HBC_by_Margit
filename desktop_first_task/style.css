@@ -1,0 +1,41 @@
+body {
+  background-color: brown;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-color: rgb(108, 26, 26);
+  }
+  h1,
+  h2 {
+    color: violet;
+  }
+}
+@media (max-width: 992px) {
+  body {
+    background-color: rgb(74, 18, 18);
+  }
+  h1,
+  h2 {
+    color: indigo;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: rgb(74, 18, 18);
+  }
+}
+@media (max-width: 576px) {
+  body {
+    background-color: rgb(24, 6, 6);
+  }
+  h1,
+  h2 {
+    color: blue;
+  }
+}
