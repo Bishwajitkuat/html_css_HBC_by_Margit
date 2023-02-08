@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: aquamarine;
+  font-family: sans-serif;
+  position: sticky;
+  top: 10px;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+li {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: violet;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+/* p:first-child {
+  background-color: violet;
+} */
+/* p:last-child {
+  background-color: indigo;
+} */
+
+p:nth-child(even) {
+  background-color: gray;
+}
+
+/* every nth child */
+p:nth-child(4n) {
+  color: yellow;
+}
+
+/* every nth child after start child  */
+p:nth-child(2n + 3) {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2::before {
+  content: " ";
+  display: block;
+  height: 2rem;
+  width: 6rem;
+  background-color: blue;
+}
+h2::after {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 50px;
+  background-color: brown;
+}
+.box {
+  position: fixed;
+  height: 100px;
+  width: 200px;
+  background-color: red;
+  bottom: 0;
+  right: 0;
+}
+.relative {
+  position: relative;
+  height: 100px;
+  width: 200px;
+  background-color: red;
+  top: 200px;
+  left: 200px;
+}
+.absolute {
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 300px;
+  left: 200px;
+}
+.sticky {
+  height: 100px;
+  width: 200px;
+  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 50px;
+  left: 200px;
+}
