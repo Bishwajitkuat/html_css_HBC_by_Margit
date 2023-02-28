@@ -21,7 +21,7 @@ img{
 .example{
     display: grid;
     grid-template-areas: 
-    "a a a  b"
+    "a a a b"
     "c e e b"
     "d e e b"
     "f f f f";
